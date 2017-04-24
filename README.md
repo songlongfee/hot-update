@@ -5,5 +5,6 @@ A simple implementation scheme for hot updating of webpage
 
 ### 开发环境
 1. Node.js 6.10.0
-2. express4.15.2
-3. socket.io1.7.3
+2. express 4.15.2
+3. socket.io 1.7.3
+
