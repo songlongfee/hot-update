@@ -11,7 +11,7 @@ A simple implementation scheme for hot updating of webpage
 
 ### 安装依赖
 将文件clone到本地，进入根目录
-npm install
+npm install  安装项目依赖文件
 
 ### 启动服务器监听修改
 根目录下运行 node app.js
