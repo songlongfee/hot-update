@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>热更新原理</title>
+</head>
+<body>
+  <h1>热更新原理</h1>
+  <h1>文件被修改le</h1>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    window.onload = function () {
+      var socket = io.connect();
+      socket.on('reload', function () {
+        window.location.reload();
+      })
+    }
+  </script>
+</body>
+</html>
